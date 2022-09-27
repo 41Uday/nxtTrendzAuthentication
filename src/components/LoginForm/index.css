@@ -1,0 +1,124 @@
+/* Write your CSS code here */
+.login-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-login {
+  height: 300px;
+  width: 40%;
+}
+
+.card-1 {
+  width: 22%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px;
+  padding: 30px;
+}
+
+.img-login-1 {
+  height: 40px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.form-cls {
+  text-align: center;
+}
+
+.label-login {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.input-cont {
+  background-color: #d7dfe9;
+  color: #64748b;
+  padding: 10px;
+  font-family: 'Roboto';
+  height: 20px;
+  width: 70%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  margin: 20px;
+}
+
+.button-login {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.rc {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  padding: 0;
+  padding-left: 20px;
+  padding-top: -20px;
+}
+
+.img-login-top-cont {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .login-bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 25px;
+  }
+  .img-login {
+    height: 300px;
+    width: 100%;
+  }
+  .img-login-1 {
+    display: none;
+  }
+  .card-1 {
+    box-shadow: none;
+  }
+  .form-cls {
+    text-align: left;
+  }
+  .input-cont {
+    width: 100%;
+  }
+  .button-login {
+    width: 100%;
+  }
+  .rc {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .card-1 {
+    width: 90%;
+  }
+  .img-login-top {
+    height: 50px;
+    width: 200px;
+  }
+  .img-login-top-cont {
+    text-align: center;
+    display: flex;
+    margin-bottom: 25px;
+  }
+}

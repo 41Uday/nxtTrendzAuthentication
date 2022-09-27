@@ -1,0 +1,101 @@
+/* Write your CSS code here */
+.home-bg-container {
+  min-height: 100vh;
+  padding: 40px;
+  padding-left: 100px;
+}
+
+.card-1-home {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.card-1-inner-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-home {
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: 80px;
+}
+
+.home-img-2 {
+  width: 40%;
+  height: 70vh;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+.head-para {
+  font-family: 'Roboto';
+  margin-left: 80px;
+  color: #475569;
+  font-size: 22px;
+}
+
+.shop-home-button {
+  width: 150px;
+  height: 40px;
+  background-color: #0967d2;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-family: 'Roboto';
+  margin-left: 80px;
+}
+
+.home-img-3 {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .home-bg-container {
+    padding: 20px;
+    padding-left: 1px;
+  }
+  .card-1-home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .head-home {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 1px;
+  }
+  .home-img-3 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  .shop-home-button {
+    width: 50%;
+    margin-left: 1px;
+  }
+  .home-img-2 {
+    display: none;
+  }
+  .img-center-home {
+    text-align: center;
+  }
+  .card-1-inner-home {
+    justify-content: center;
+    align-items: center;
+  }
+  .head-para {
+    font-size: 16px;
+    margin-left: 1px;
+    text-align: center;
+    margin: 15px;
+  }
+}

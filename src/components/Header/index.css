@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.header-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 50px;
+  height: 100px;
+}
+
+.img-1-header {
+  height: 40px;
+  width: 150px;
+}
+
+.list-container-header {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item-header {
+  margin-right: 25px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+
+.header-button {
+  height: 30px;
+  width: 90px;
+  background-color: #0967d2;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Roboto';
+}
+
+.card-2-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-2-exit-header {
+  display: none;
+}
+
+.for-sm-design {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .header-bg-container {
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 1px;
+    margin-top: -20px;
+  }
+  .card-2-header {
+    display: none;
+  }
+  .img-2-exit-header {
+    display: flex;
+    height: 30px;
+    width: 30px;
+  }
+  .for-sm-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6f6ff;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+  .for-sm-img-1 {
+    height: 25px;
+    width: 30px;
+  }
+}
